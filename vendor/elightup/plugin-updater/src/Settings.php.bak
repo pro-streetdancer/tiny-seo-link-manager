@@ -113,8 +113,8 @@ class Settings {
 
 		$option['status'] = 'active';
 		$args             = $option;
-		//$args['action']   = 'check_license';
-		//$response         = $this->checker->request( $args );
+		$args['action']   = 'check_license';
+		$response         = $this->checker->request( $args );
 		$status           = isset( $response['status'] ) ? $response['status'] : 'invalid';
 
 		if ( false === $response ) {

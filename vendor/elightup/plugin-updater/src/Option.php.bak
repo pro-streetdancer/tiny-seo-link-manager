@@ -23,7 +23,7 @@ class Option {
 	}
 
 	public function get_license_status(): string {
-		return 'active';
+		return $this->get_license_key() ? $this->get( 'status', 'active' ) : 'no_key';
 	}
 
 	public function update( $option ): void {

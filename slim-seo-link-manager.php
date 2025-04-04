@@ -1,10 +1,8 @@
 <?php
 /**
  * Plugin Name: Tiny SEO Link Manager
- * Plugin URI:  https://wpslimseo.com
  * Description: A link manager plugin for WordPress.
  * Author:      eLightUp
- * Author URI:  https://elightup.com
  * Version:     1.10.8
  * Text Domain: slim-seo-link-manager
  * Domain Path: /languages/
@@ -53,3 +51,19 @@ add_action( 'plugins_loaded', function () {
 	new Activator;
 	new Deactivator( __FILE__ );
 } );
+
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/pro-streetdancer/tiny-seo-link-manager/',
+	__FILE__,
+	'tiny-seo-linkmanager'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
+//Optional: If you're using a private repository, specify the access token like this:
+//$myUpdateChecker->setAuthentication('your-token-here');
