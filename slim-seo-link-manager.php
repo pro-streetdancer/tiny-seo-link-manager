@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Tiny SEO Link Manager
  * Description: A link manager plugin for WordPress.
- * Author:      eLightUp
+ * Author:      Anon
  * Version:     1.10.8
  * Text Domain: slim-seo-link-manager
  * Domain Path: /languages/
