@@ -1,0 +1,628 @@
+# Copyright (C) 2022 eLightUp
+# This file is distributed under the same license as the Slim SEO Link Manager plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Slim SEO Link Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/slim-seo-link-manager\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-08T01:46:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: slim-seo-link-manager\n"
+
+#. Plugin Name of the plugin
+msgid "Slim SEO Link Manager"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpslimseo.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "A link manager plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "eLightUp"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://elightup.com"
+msgstr ""
+
+#. Translators: %1$s - source link, %2$s - destination link
+#: src/Api/Tools.php:110
+msgid "Updated link %1$s in %2$s"
+msgstr ""
+
+#: src/Api/Tools.php:120
+msgid "Done!"
+msgstr ""
+
+#. Translators: %1$d - scanned links, %2$d - total links.
+#: src/Notices.php:18
+msgid "Scanned links in %1$d/%2$d posts"
+msgstr ""
+
+#. Translators: %1$d - scanned links, %2$d - total links.
+#: src/Notices.php:28
+msgid "Checked HTTP status of %1$d/%2$d links."
+msgstr ""
+
+#: src/Notices.php:40
+msgid "Links scanner is still processing..."
+msgstr ""
+
+#: src/Post.php:45
+#: src/Settings.php:14
+msgid "Link Manager"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Buttons/LinksScanner.js:5
+msgid "Scan now"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Buttons/LinksScanner.js:20
+msgid "Are you sure to scan links from the beginning?"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Buttons/LinksScanner.js:30
+msgid "Scanning..."
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Buttons/LinkUpdater.js:4
+#: js/dashboard/context/ToolsContext.js:35
+msgid "Link updater"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:14
+msgid "Link Updater"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:68
+msgid "Old link"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:68
+msgid "Old link that needs to be replaced"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:72
+msgid "New link"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:72
+msgid "New link to replace"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:52
+msgid " links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:52
+msgid " link"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:52
+msgid " found!. Start updating!"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:56
+msgid "No link found!"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:43
+msgid "Please enter correct URL format for new link"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:39
+msgid "Please enter correct URL format for old link"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:35
+msgid "Please enter both old and new links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Tools/LinkUpdater.js:77
+msgid "Update"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/context/ToolsContext.js:25
+msgid "Scan links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/context/ToolsContext.js:26
+msgid "Scan links in all posts"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/context/ToolsContext.js:30
+msgid "Scan links in all posts. This action removes all existing link data and scans from the beginning."
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/context/ToolsContext.js:36
+msgid "Update/Replace old links by new links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/context/ToolsContext.js:40
+msgid "Update/replace an existing link with a new one in all posts."
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/App.js:11
+#: js/dashboard/components/Parts/Breadcrumbs.js:5
+msgid "Report"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/App.js:12
+#: js/dashboard/components/Parts/Breadcrumbs.js:9
+msgid "Tools"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Parts/Paginate.js:18
+msgid "Next »"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Parts/Paginate.js:22
+msgid "« Previous"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Links.js:9
+#: js/dashboard/components/OrphanPages/Links.js:8
+msgid "Page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Links.js:9
+msgid "Targe page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Links.js:10
+#: js/dashboard/components/Keywords/Links.js:10
+#: js/dashboard/components/LinkedPages/Links.js:10
+#: js/dashboard/components/LinksStatus/Links.js:10
+msgid "Amount"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Links.js:10
+msgid "The number of links to the page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:76
+#: js/dashboard/components/Keywords/Detail.js:76
+#: js/dashboard/components/LinkedPages/Detail.js:80
+#: js/dashboard/components/LinkedPages/Links.js:21
+#: js/dashboard/components/LinksStatus/Detail.js:77
+#: js/dashboard/components/OrphanPages/Links.js:19
+msgid "View"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:76
+#: js/dashboard/components/Keywords/Detail.js:76
+#: js/dashboard/components/LinkedPages/Detail.js:80
+#: js/dashboard/components/LinkedPages/Links.js:21
+#: js/dashboard/components/LinksStatus/Detail.js:77
+#: js/dashboard/components/OrphanPages/Links.js:19
+msgid "Edit"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Detail.js:43
+#: js/dashboard/components/LinkedPages/List.js:28
+msgid "Linked Pages"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:61
+#: js/dashboard/components/Keywords/Detail.js:61
+#: js/dashboard/components/LinkedPages/Detail.js:65
+#: js/dashboard/components/LinksStatus/Detail.js:61
+#: js/post.js:1
+#: js/post/components/InternalInboundLinks.js:13
+msgid "Source"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:61
+#: js/dashboard/components/Keywords/Detail.js:61
+#: js/dashboard/components/LinkedPages/Detail.js:65
+#: js/dashboard/components/LinksStatus/Detail.js:61
+#: js/post.js:1
+#: js/post/components/InternalInboundLinks.js:13
+msgid "Source page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:62
+#: js/dashboard/components/Keywords/Links.js:9
+#: js/dashboard/components/LinkedPages/Detail.js:66
+#: js/dashboard/components/LinksStatus/Detail.js:63
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:13
+#: js/post/components/InternalInboundLinks.js:15
+#: js/post/components/InternalOutboundLinks.js:14
+msgid "Anchor text"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:63
+#: js/dashboard/components/Keywords/Detail.js:63
+#: js/dashboard/components/LinkedPages/Detail.js:67
+#: js/dashboard/components/LinksStatus/Detail.js:64
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:14
+#: js/post/components/InternalInboundLinks.js:16
+#: js/post/components/InternalOutboundLinks.js:15
+msgid "Follow"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Detail.js:63
+#: js/dashboard/components/LinkedPages/Detail.js:67
+#: js/dashboard/components/LinksStatus/Detail.js:64
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:14
+#: js/post/components/InternalInboundLinks.js:16
+#: js/post/components/InternalOutboundLinks.js:15
+msgid "Link dofollow or nofollow"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:64
+#: js/dashboard/components/Keywords/Detail.js:64
+#: js/dashboard/components/LinkedPages/Detail.js:68
+#: js/dashboard/components/LinksStatus/Detail.js:65
+#: js/dashboard/components/LinksStatus/Links.js:9
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:15
+#: js/post/components/InternalInboundLinks.js:17
+#: js/post/components/InternalOutboundLinks.js:16
+msgid "Status"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:64
+#: js/dashboard/components/Keywords/Detail.js:64
+#: js/dashboard/components/LinkedPages/Detail.js:68
+#: js/dashboard/components/LinksStatus/Detail.js:65
+#: js/dashboard/components/LinksStatus/Links.js:9
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:15
+#: js/post/components/InternalInboundLinks.js:17
+#: js/post/components/InternalOutboundLinks.js:16
+msgid "HTTP status code"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:82
+#: js/dashboard/components/LinkedPages/Detail.js:86
+#: js/dashboard/components/LinksStatus/Detail.js:87
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:31
+#: js/post/components/InternalInboundLinks.js:31
+#: js/post/components/InternalOutboundLinks.js:36
+msgid "image alt"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Links.js:9
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:12
+#: js/post/components/InternalInboundLinks.js:14
+#: js/post/components/InternalOutboundLinks.js:13
+msgid "URL"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Links.js:9
+msgid "The external URL"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Links.js:10
+msgid "The number of links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:39
+#: js/dashboard/components/ExternalLinks/List.js:28
+msgid "External Links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Detail.js:63
+msgid "Link dofollow or nofollow?"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinksStatus/Links.js:10
+msgid "The number of links that has the status code"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinksStatus/Detail.js:39
+#: js/dashboard/components/LinksStatus/List.js:28
+msgid "Links Statuses"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Detail.js:62
+#: js/dashboard/components/LinksStatus/Detail.js:62
+#: js/post.js:1
+#: js/post/components/InternalOutboundLinks.js:12
+msgid "Target"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Detail.js:62
+#: js/dashboard/components/LinksStatus/Detail.js:62
+#: js/post.js:1
+#: js/post/components/InternalOutboundLinks.js:12
+msgid "Target page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Detail.js:81
+#: js/dashboard/components/LinksStatus/Detail.js:82
+#: js/post.js:1
+#: js/post/components/InternalOutboundLinks.js:27
+msgid "term"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Links.js:9
+msgid "Keyword"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Links.js:10
+msgid "The number of links that contain this keyword"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Detail.js:39
+#: js/dashboard/components/Keywords/List.js:28
+msgid "Keywords"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/OrphanPages/Links.js:8
+msgid "Orphan page"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/OrphanPages/List.js:28
+#: js/dashboard/components/OrphanPages/Widget.js:30
+msgid "Orphan Pages"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Buttons/LoadMore.js:14
+msgid "Load more"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Widget.js:30
+msgid "Top External Links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Widget.js:31
+msgid "External URLs that are linked to the most"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Widget.js:32
+#: js/dashboard/components/Keywords/Widget.js:32
+#: js/dashboard/components/LinkedPages/Widget.js:32
+#: js/dashboard/components/LinksStatus/Widget.js:32
+#: js/dashboard/components/OrphanPages/Widget.js:32
+msgid "View all"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/ExternalLinks/Widget.js:40
+#: js/dashboard/components/Keywords/Widget.js:40
+#: js/dashboard/components/LinkedPages/Widget.js:40
+#: js/dashboard/components/LinksStatus/Widget.js:40
+#: js/dashboard/components/OrphanPages/Widget.js:41
+msgid "No data"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Widget.js:30
+msgid "Top Keywords"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Keywords/Widget.js:31
+msgid "Keywords that are used the most"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Widget.js:30
+msgid "Top Linked Pages"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinkedPages/Widget.js:31
+msgid "Pages that are linked to the most"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinksStatus/Widget.js:30
+msgid "Link Statuses"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/LinksStatus/Widget.js:31
+msgid "HTTP status code of links"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/OrphanPages/Widget.js:31
+msgid "Pages that do not have any link linked to"
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Widgets.js:27
+msgid "There is no data yet. Please press the button below to start scanning links in all posts."
+msgstr ""
+
+#: js/dashboard.js:1
+#: js/dashboard/components/Widgets.js:28
+msgid "Scan links now"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:36
+#: js/post/components/InternalOutboundLinks.js:41
+msgid "Re-Checking.."
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/ExternalOutboundLinks.js:6
+#: js/post/components/InternalInboundLinks.js:7
+#: js/post/components/InternalOutboundLinks.js:6
+msgid "No links found. Please edit the content and add some links."
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Page.js:25
+#: js/post/components/LinkSuggestions/Suggestion.js:35
+msgid "Copy link"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestion.js:35
+msgid " and scroll to text"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Page.js:25
+#: js/post/components/LinkSuggestions/Suggestion.js:35
+msgid "Copied"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestions.js:13
+msgid "Sentence"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestions.js:13
+msgid "Sentences with linkable words"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestions.js:14
+msgid "Link Suggestion"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestions.js:14
+msgid "Suggested links for the sentence"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Suggestions.js:7
+msgid "No link suggestions. Please add links manually."
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Search.js:70
+msgid "Type a keyword and press Enter..."
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Search.js:75
+msgid "Keyword Suggestions:"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Search.js:95
+msgid "Pages"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Search.js:95
+msgid "Sentence has words that have link suggestion"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/components/LinkSuggestions/Search.js:89
+msgid "No page found. Please enter other keyword."
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:72
+msgid "Internal Outbound"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:73
+msgid "Links from this page to other pages of this website"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:76
+msgid "External Outbound"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:77
+msgid "Links from this page to other websites"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:80
+msgid "Internal Inbound"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:81
+msgid "Links from other pages of this website to this page"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:84
+msgid "Link Suggestions"
+msgstr ""
+
+#: js/post.js:1
+#: js/post/App.js:85
+msgid "Related pages that you might want to link to"
+msgstr ""
